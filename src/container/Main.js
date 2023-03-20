@@ -1,4 +1,6 @@
 import Intro from "../pages/Intro";
+import Skills from "../pages/Skills";
+
 
 export default function Main() {
 
@@ -7,8 +9,9 @@ export default function Main() {
   };
 
   return (
-    <main className="bg-blue-500 h-5/6 p-3 rounded-lg overflow-y-auto " style={style} >
-      <Intro />
+    <main className="bg-light-blue h-5/6 p-3 rounded-lg overflow-y-auto " style={style} >
+      {/* <Intro /> */}
+      <Skills/>
     </main>
   );
 }

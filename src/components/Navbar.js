@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <nav className=" flex justify-between items-center" >
-        <h1 className="text-4xl" > A.S </h1>
+        <h1 className="text-4xl text-sky-blue" > A.S </h1>
 
         <div className="px-1.5 py-1 cursor-pointer rounded-lg
          hover:bg-darkblue" onClick={ () => 

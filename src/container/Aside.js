@@ -4,7 +4,7 @@ import NavListItem from "../components/NavList-Item";
 export default function Aside() {
   return (
     <>
-      <aside className="rounded-lg p-4 bg-blue-500">
+      <aside className="rounded-lg p-4 bg-light-blue">
         <Navbar />
       </aside>
     </>
