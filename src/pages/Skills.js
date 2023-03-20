@@ -5,7 +5,6 @@ import { data } from "../data/data";
 
 
 
-
 export default function Skills() {
   return (
     <section className="">
